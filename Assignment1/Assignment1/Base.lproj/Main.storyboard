@@ -33,6 +33,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="39" y="174" width="30" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="Clickone:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="evQ-bt-JKO"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MI2-2O-wGg">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -71,6 +74,9 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="okK-P6-Nvc" id="EV4-rS-tiU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
