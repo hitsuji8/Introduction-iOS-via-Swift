@@ -14,12 +14,13 @@ class ViewController: UIViewController {
     
     var score:Int = 0
     
-    @IBAction func Clickone(sender: UIButton) {
-        score++
-        label.text = "Total: \(score)"
     
+    
+    @IBAction func Button(sender: AnyObject) {
+        score += 1
+        label.text  =  "Total:  \(score)"
+
     }
-    
     
     
     override func viewDidLoad() {
